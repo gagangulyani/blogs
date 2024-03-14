@@ -1,4 +1,4 @@
-# Stoic way of dealing wth anger
+# Stoic way of dealing with anger
 
 ## Disclaimer
 

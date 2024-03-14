@@ -6,7 +6,7 @@ I have been listening to this audio book named with **Breakfast with Seneca** an
 
 ### Intro
 
-About anger, in short, Seneca, a philosopher, known as the one who started Stoicism, which is a philosophy which was being followed by the romans 2000+ years ago is still applicable in today's world.
+About anger, in short, Seneca, a philosopher, known as one of the major contributors of Stoicism, which is a philosophy which followed by the romans 2000+ years ago is still applicable in today's world and followed by many.
 
 So, I was going through this chapter in the book that made me feel like I should share this one, it's about anger.
 Seneca compares anger with insanity, believing that one become insane whenever he let's himself to be extremely angry.

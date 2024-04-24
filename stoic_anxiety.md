@@ -1,25 +1,25 @@
-# How to deal with anxiety
+# How to deal with anxiety (the stoic way)
 
 ## Disclaimer
 
 I have been digging more into stoicism and the more I dig in,
-the more I realize that this 2000+ year old philosophy makes so much sense in today's world especially the subjects that it covering how to deal with anxiety.
+the more I realize that this 2000+-year-old philosophy makes so much sense in today's world especially the subjects that it covers how to deal with anxiety.
 
-I have read some books and the lessons have changed the way I see the world drastically, felt like I should share some lessons with you folks since the issue we all face is much common and yet the solutions are sometimes foreign to the most.
+I have read some books and the lessons have changed the way I see the world drastically, felt like I should share some lessons with you folks since the issue we all face is very common and yet the solutions are sometimes foreign to most.
 
-A paradigm shift i hope you'll experience after reading this cute little blog and make your life better a bit.
+A paradigm shift I hope you'll experience after reading this cute little blog and making your life better a bit.
 
 #### I'm gonna share the ideas and lessons I learnt from the following books
 
 1. Breakfast with Seneca
-2. 7 Habits of highly effective people
+2. 7 Habits of Highly Effective People
 3. Daily Stoic
 4. The Subtle art of not giving a fuck
-5. The Science of self discipline
+5. The Science of self-discipline
 
 ## Introduction
 
-We all know how fucked it has become when so many people are anxious about the future, the worrying and the chase for likes or follows and engagements, thanks to the never ending information consumption on social media platforms. A great tool which is misused even greatly. We as individuals need to know the tools and ideas that are simple and effective to follow. If simple ideas can save us from developing mental health issues, why shouldn't we take a minute or two to learn about them!?
+We all know how fucked it has become when so many people are anxious about the future, the worrying and the chase for likes or follows and engagements, thanks to the never-ending information consumption on social media platforms. A great tool which is misused even greatly. We as individuals need to know the tools and ideas that are simple and effective to follow. If simple ideas can save us from developing mental health issues, why shouldn't we take a minute or two to learn about them!?
 
 ## That's where the trouble begins...
 

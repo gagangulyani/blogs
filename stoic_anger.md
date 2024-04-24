@@ -1,26 +1,26 @@
-# How to deal with anger
+# How to deal with anger (the stoic way)
 
 ## Disclaimer
 
-I have been listening to this audio book named with **Breakfast with Seneca** and **The Science of Self Discipline** and have been finding the lessons shared so relevant in today's world (especially in my life) that I felt like sharing it with ya'll.
+I have been listening to these audiobooks named with **Breakfast with Seneca** and **The Science of Self Discipline** and have been finding the lessons shared so relevant in today's world (especially in my life) that I felt like sharing it with ya'll.
 
 ### Intro
 
-About anger, in short, Seneca, a philosopher, known as one of the major contributors of Stoicism, which is a philosophy which followed by the romans 2000+ years ago is still applicable in today's world and followed by many.
+About anger, in short, Seneca, a philosopher, known as one of the major contributors of Stoicism, which is a philosophy followed by the Romans 2000+ years ago is still applicable in today's world and followed by many.
 
 So, I was going through this chapter in the book that made me feel like I should share this one, it's about anger.
-Seneca compares anger with insanity, believing that one become insane whenever he let's himself to be extremely angry.
+Seneca compares anger with insanity, believing that one becomes insane whenever he lets himself be extremely angry.
 
 ## But first, we need to learn how we get angry
 
 1. Something happens (Stimulus)
-2. We acknowledge what happened and create an opinion about this event, including the event and that it was injustice and we should take revenge.
-3. We go frenzy about that opinion and create an emotion of anger and proceed with the action channeled through anger (Response)
+2. We acknowledge what happened and create an opinion about this event, including the event and that it was an injustice and we should take revenge.
+3. We go frenzy about that opinion create an emotion of anger and proceed with the action channelled through anger (Response)
 
 #### Example
 
 - **Stimulus**: Someone spilled coffee on you at work
-- **Opinion phase**: I have coffee on my brand new shirt! I should yell at him or do something to make that person realize how big this mistake is
+- **Opinion phase**: I have coffee on my brand-new shirt! I should yell at him or do something to make that person realize how big this mistake is
 - **Response**: Proceeds to yell at that person, this is my brand new shirt and you ruined it, go fuck yourself!
 
 ## The Problem:
@@ -31,11 +31,11 @@ Seneca compares anger with insanity, believing that one become insane whenever h
 
 ## The Solution (in my own words and understanding)
 
-1. We should **monitor our feelings** and our thought process, and when we have this opinion that injustice happened to us, we should think about how minuscule that event is when we see the bigger picture, and it's no injustice, just another event that just happened. Acknowledging it is enough and let things be. Ask yourself (**cognitive restructuring**) if taking a revenge is the most logical response you should have and if the punishment that we'll give to that person will ensure the person never repeats the same mistake again regardless of the fact that anyone can make a mistake and it's not supposed to be a big deal?
+1. We should **monitor our feelings** and our thought process, and when we have this opinion that injustice happened to us, we should think about how minuscule that event is when we see the bigger picture, and it's no injustice, just another event that just happened. Acknowledging it is enough and let things be. Ask yourself (**cognitive restructuring**) if taking revenge is the most logical response you should have and if the punishment that we'll give to that person will ensure the person never repeats the same mistake even though anyone can make a mistake and it's not supposed to be a big deal?
 
-2. Delay (**cognitive delay**) the response whenever something happens, delaying it will let us think about it and cool us down so we come up with something rational as a response, not impulsive. This one I can relate it with the 10 minute rule that I learned in The Science of Self Discipline, whenever you have a temptation, wait for 10 minutes and see if you still have the temptation, usually, it goes away when we wait.
+2. Delay (**cognitive delay**) is the response whenever something happens, delaying it will let us think about it and cool us down so we come up with something rational as a response, not impulsive. This one I can relate with the 10-minute rule that I learned in The Science of Self Discipline, whenever you have a temptation, wait for 10 minutes and see if you still have the temptation, usually, it goes away when we wait.
 
-3. Seneca has put emphasis on living in the present, not giving a rat's ass about the **negative shit which enslaves us and robs us of our present** so do something better with your time and energy as you are worthy of better things to put your time and energy on. Chillax and carry on with your lives, and be kind cause we humans are only humans.
+3. Seneca has emphasized living in the present, not giving a rat's ass about the **negative shit which enslaves us and robs us of our present** so do something better with your time and energy as you are worthy of better things to put your time and energy on. Chillax and carry on with your lives, and be kind cause we humans are only humans.
 
 ### Summary
 

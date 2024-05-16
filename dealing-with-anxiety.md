@@ -43,7 +43,7 @@ After so much time feeling like crap and going through the stoicism, something c
 
 ### Let's take an example:
 
-Something happens, and I feel this and that, I take a pause, basically following the cognitive delay technique I shared in my previous blog post.
+Something happens, and I feel this and that, I take a pause, basically following the cognitive distancing technique I shared in my previous blog post.
 
 ##### I realised this anxiety is because:
 

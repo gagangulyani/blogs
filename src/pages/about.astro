@@ -1,0 +1,23 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ColorScript from "../components/ColorScript.astro";
+import { title, subtitle } from "../settings/settings.json"
+import { Content as AboutContent } from "./about.md";
+---
+
+<!doctype html>
+<html lang="en-us">
+	<BaseHead title={`About | ${title}`} description={subtitle} />
+	<body>
+		<Header />
+		<main>
+			<article>
+				<AboutContent />
+			</article>
+		</main>
+		<Footer />
+		<ColorScript />
+	</body>
+</html>

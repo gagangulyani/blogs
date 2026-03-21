@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/Page.astro"
 title: "About"
 description: "About Gagan Deep Singh and this blog"
 ---

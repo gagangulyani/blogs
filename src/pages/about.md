@@ -1,3 +1,9 @@
+---
+layout: "../layouts/BlogPost.astro"
+title: "About"
+description: "About Gagan Gulyani and this blog"
+---
+
 Hi, I'm Gagan Gulyani.
 
 I write about life, philosophy, mental health, and personal growth. My journey through stoicism, self-discipline, and mindfulness has transformed the way I see the world, and I hope to share those insights with you.

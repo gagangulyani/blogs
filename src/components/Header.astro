@@ -7,11 +7,11 @@ import { title, subtitle } from "../settings/settings.json"
 <header>
 	<div class="header-section">
 		<div class="header-frame">
-			<img src="/gagan-deep-singh.jpg" alt="Gagan Deep Singh" class="profile-image" />
 			<div class="header-text">
 				<h1>{title}</h1>
 				<h2>{subtitle}</h2>
 			</div>
+			<img src="/gagan-deep-singh.jpg" alt="Gagan Deep Singh" class="profile-image" />
 		</div>
 	</div>
 </header>
@@ -21,24 +21,37 @@ import { title, subtitle } from "../settings/settings.json"
 	<HeaderLink href="/about">about</HeaderLink>
 </nav>
 <style>
+	.header-section {
+		display: flex;
+		justify-content: center;
+	}
 	.header-frame {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 		gap: 2rem;
-		flex-wrap: wrap;
+		width: 100%;
+		max-width: 70ch;
 	}
 	.profile-image {
-		width: 120px;
-		height: 120px;
+		width: 100px;
+		height: 100px;
 		border-radius: 50%;
 		object-fit: cover;
+		flex-shrink: 0;
 	}
-	.header-text h1,
-	.header-text h2 {
+	@media (max-width: 600px) {
+		.profile-image {
+			display: none;
+		}
+	}
+	.header-text {
+		flex: 1;
+	}
+	.header-text h1 {
 		margin: 0;
-		text-align: left;
 	}
 	.header-text h2 {
-		margin-top: 0.5em;
+		margin: 0.5em 0 0 0;
 	}
 </style>

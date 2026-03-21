@@ -1,0 +1,25 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ColorScript from "../components/ColorScript.astro";
+import { title, subtitle } from "../settings/settings.json"
+
+const { title: pageTitle, description } = Astro.props.content;
+---
+
+<html lang="en-us">
+	<BaseHead title={`${pageTitle} | ${title}`} description={description} />
+
+	<body>
+		<Header />
+		<main>
+			<article>
+				<h1>{pageTitle}</h1>
+				<slot />
+			</article>
+		</main>
+		<Footer />
+		<ColorScript />
+	</body>
+</html>

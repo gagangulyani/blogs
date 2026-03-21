@@ -1,10 +1,10 @@
 ---
-layout: "../layouts/BlogPost.astro"
+layout: "../layouts/Page.astro"
 title: "About"
-description: "About Gagan Gulyani and this blog"
+description: "About Gagan Deep Singh and this blog"
 ---
 
-Hi, I'm Gagan Gulyani.
+Hi, I'm Gagan Deep Singh.
 
 I write about life, philosophy, mental health, and personal growth. My journey through stoicism, self-discipline, and mindfulness has transformed the way I see the world, and I hope to share those insights with you.
 

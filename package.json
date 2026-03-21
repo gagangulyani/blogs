@@ -3,11 +3,13 @@
 	"version": "0.0.6",
 	"private": true,
 	"scripts": {
-		"dev": "npx tinacms dev -c \"astro dev\"",
+		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "tinacms build && astro build",
+		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"tina-dev": "npx tinacms dev -c 'astro dev'",
+		"tina-build": "tinacms build && astro build"
 	},
 	"devDependencies": {
 		"@astrojs/rss": "^4.0.15",

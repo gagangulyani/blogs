@@ -1,4 +1,14 @@
-# How to deal with anger (the stoic way)
+---
+title: How to deal with anger (the stoic way)
+slug: dealing-with-anger-stoic-way
+description: >-
+  I have been listening to these audiobooks named with Breakfast with Seneca and The Science of Self Discipline and have been finding the lessons shared so relevant in today's world.
+tags:
+  - anger
+  - stoicism
+  - self discipline
+added: "Mar 22 2024"
+---
 
 ## Disclaimer
 

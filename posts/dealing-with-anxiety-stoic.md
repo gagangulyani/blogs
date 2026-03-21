@@ -1,9 +1,18 @@
-# How to deal with anxiety (the stoic way)
+---
+title: How to deal with anxiety (the stoic way)
+slug: dealing-with-anxiety-stoic-way
+description: >-
+  We all know how fucked it has become when so many people are anxious about the future, the worrying and the chase for likes or follows and engagements.
+tags:
+  - anxiety
+  - stoicism
+  - mental health
+added: "Mar 15 2024"
+---
 
 ## Disclaimer
 
-I have been digging more into stoicism and the more I dig in,
-the more I realize that this 2000+-year-old philosophy makes so much sense in today's world especially the subjects that it covers how to deal with anxiety.
+I have been digging more into stoicism and the more I dig in, the more I realize that this 2000+-year-old philosophy makes so much sense in today's world especially the subjects that it covers how to deal with anxiety.
 
 I have read some books and the lessons have changed the way I see the world drastically, felt like I should share some lessons with you folks since the issue we all face is very common and yet the solutions are sometimes foreign to most.
 

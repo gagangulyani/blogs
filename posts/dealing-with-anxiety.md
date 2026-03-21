@@ -1,10 +1,14 @@
 ---
 title: Dealing with Anxiety Issues triggered by Social Media
-created: '2024-04-10T19:07:59.132Z'
-modified: '2024-04-10T20:24:36.564Z'
+slug: dealing-with-anxiety-social-media
+description: >-
+  I shared my thought process and experiences in this one so it might be helpful for you as a reader to handle your anxiety-related issues.
+tags:
+  - anxiety
+  - mental health
+  - social media
+added: "Apr 10 2024"
 ---
-
-# Dealing with Anxiety Issues triggered by Social Media
 
 ## Disclaimer
 

@@ -1,0 +1,23 @@
+{
+	"name": "@cassidoo/blahg",
+	"version": "0.0.6",
+	"private": true,
+	"scripts": {
+		"dev": "npx tinacms dev -c \"astro dev\"",
+		"start": "astro dev",
+		"build": "tinacms build && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"devDependencies": {
+		"@astrojs/rss": "^4.0.15",
+		"@astrojs/sitemap": "^3.7.0",
+		"astro": "^5.18.0",
+		"prettier": "^3.3.3",
+		"prettier-plugin-astro": "^0.14.1"
+	},
+	"dependencies": {
+		"@tinacms/cli": "^1.12.6",
+		"tinacms": "^2.10.1"
+	}
+}

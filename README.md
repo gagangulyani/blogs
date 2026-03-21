@@ -1,12 +1,64 @@
+# Gagan's Blog
+
+Personal blog built with Astro and TinaCMS.
+
+## Setup
+
+1. Clone the repository
+2. Run `npm install`
+3. Create `.env.development` file with your TinaCMS credentials (see below)
+4. Run `npm run dev` to start the development server
+
+## Environment Variables
+
+Create a `.env.development` file:
+
+```
+TINACLIENTID=your_tina_client_id
+TINATOKEN=your_tina_token
+TINASEARCH=your_tina_search_token
+```
+
+## Writing Content
+
+### Option 1: Via TinaCMS (Rich Text Editor)
+Visit `localhost:4321/admin` to use the rich text editor.
+
+### Option 2: Direct Markdown
+Add Markdown files to the `/posts/` directory with the following frontmatter:
+
+```yaml
 ---
-title: README
-created: '2024-03-14T18:32:56.159Z'
-modified: '2024-04-10T20:26:56.783Z'
+title: Your Post Title
+slug: your-post-slug
+description: Brief description of your post
+tags:
+  - tag1
+  - tag2
+added: "MMM DD YYYY"
 ---
+```
 
-# blogs
+## Deployment
 
-- [11 April 01:54 AM: Dealing with Anxiety triggered by Social Media](./dealing-with-anxiety.md)
-- [15 March 12:30 AM: How to deal with anger (the stoic way)](stoic_anger.md)
-- [21 March 12:06 AM: How to deal with anxiety (the stoic way)](stoic_anxiety.md)
+This blog is configured for deployment on Vercel with the following settings:
+- **Build Command:** `npm run build`
+- **Output Directory:** `./dist`
+- **Install Command:** `npm install`
 
+## Domain
+
+Blog is hosted at: https://blog.gagangulyani.com
+
+## Structure
+
+- `/posts/` - Blog posts in Markdown format
+- `/src/pages/about.md` - About page
+- `/src/settings/settings.json` - Site configuration
+- `/public/` - Static assets
+- `/tina/` - TinaCMS configuration
+
+## Credits
+
+Built with [Astro](https://astro.build) and [TinaCMS](https://tina.io)
+Based on the [blahg](https://github.com/cassidoo/blahg) template by Cassidy Williams

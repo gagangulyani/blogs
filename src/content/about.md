@@ -1,14 +1,3 @@
 Hi, I'm Gagan Deep Singh.
 
-I write about life, philosophy, mental health, and personal growth. My journey through stoicism, self-discipline, and mindfulness has transformed the way I see the world, and I hope to share those insights with you.
-
-This blog is where I document my thoughts, lessons learned, and practical advice for dealing with anxiety, anger, and the everyday challenges of modern life.
-
-**Some topics I write about:**
-- Stoicism and ancient philosophy
-- Mental health and anxiety management
-- Social media's impact on our wellbeing
-- Practical frameworks for better decision making
-- Books that have changed my perspective
-
-Feel free to reach out or follow along. Thanks for stopping by!
+I write about what I learn along the way. Stoicism, philosophy, self-discipline, and practical frameworks for better thinking. This is where I document the lessons that stick.

@@ -7,7 +7,6 @@ import HomePosts from "../components/HomePosts.astro";
 import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import { title, subtitle } from "../settings/settings.json"
-import { Content as AboutContent } from "../content/about.md";
 import getTags from "../scripts/getTags";
 
 const posts = await getCollection("posts");
@@ -20,11 +19,7 @@ const tags = getTags(posts);
 	<body>
 		<Header title={title} />
 		<main>
-			<AboutContent />
-
-			<br />
-
-			<h3>Here's my most recent posts</h3>
+		<h3>Here's my most recent posts</h3>
 
 			<HomePosts allPosts={posts} />
 

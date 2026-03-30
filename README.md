@@ -1,64 +1,62 @@
-# Gagan's Blog
+# Personal Blog - Migration to Ghost
 
-Personal blog built with Astro and TinaCMS.
+This is the source repository for my personal blog, migrating from a static site to Ghost CMS with the Solo theme.
 
-## Setup
+## About This Blog
 
-1. Clone the repository
-2. Run `npm install`
-3. Create `.env.development` file with your TinaCMS credentials (see below)
-4. Run `npm run dev` to start the development server
+I write about practical philosophy, mental health, and personal growth - often with lessons learned from books I'm reading. Topics include:
 
-## Environment Variables
+- **Stoicism** and how ancient philosophy applies to modern life
+- **Managing emotions** like anger and anxiety
+- **Personal development** and self-discipline
+- **Book notes** and lessons from authors like Seneca
 
-Create a `.env.development` file:
+## 📦 Migration Files
 
+- **`ghost-export.json`** - Content export ready for Ghost import
+- **`setup-ghost-solo.sh`** - Automated setup script for local Ghost + Solo theme
+- **`GHOST_SETUP.md`** - Detailed setup and customization guide
+- **`posts/`** - Original markdown content (backup)
+
+## 🚀 Setup Instructions
+
+```bash
+# Run automated setup
+./setup-ghost-solo.sh
 ```
-TINACLIENTID=your_tina_client_id
-TINATOKEN=your_tina_token
-TINASEARCH=your_tina_search_token
-```
 
-## Writing Content
+Then:
 
-### Option 1: Via TinaCMS (Rich Text Editor)
-Visit `localhost:4321/admin` to use the rich text editor.
+1. Open http://localhost:2368/ghost
+2. Create admin account
+3. Go to Settings → Design → Activate "solo" theme
+4. Settings → Labs → Import Content → Upload `ghost-export.json`
 
-### Option 2: Direct Markdown
-Add Markdown files to the `/posts/` directory with the following frontmatter:
+## 🏷️ Content Organization
 
-```yaml
+Posts are tagged with 6 broad categories:
+
+- **Philosophy** (3 posts) - Stoicism, philosophical insights
+- **Personal Growth** (3 posts) - Self-improvement, development
+- **Mental Health** (2 posts) - Anxiety, wellbeing
+- **Book Notes** (3 posts) - Lessons from books I'm reading
+- **Mindfulness** (2 posts) - Present moment, awareness
+- **Emotional Intelligence** (2 posts) - Managing emotions
+
+## 📝 Content
+
+3 blog posts currently:
+
+1. How to deal with anger (the stoic way)
+2. How to deal with anxiety (the stoic way)
+3. Dealing with Anxiety Issues triggered by Social Media
+
+## 🔗 Resources
+
+- [Ghost Documentation](https://ghost.org/docs/)
+- [Solo Theme Demo](https://solo.ghost.io)
+- [Ghost CLI](https://ghost.org/docs/ghost-cli/)
+
 ---
-title: Your Post Title
-slug: your-post-slug
-description: Brief description of your post
-tags:
-  - tag1
-  - tag2
-added: "MMM DD YYYY"
----
-```
 
-## Deployment
-
-This blog is configured for deployment on Vercel with the following settings:
-- **Build Command:** `npm run build`
-- **Output Directory:** `./dist`
-- **Install Command:** `npm install`
-
-## Domain
-
-Blog is hosted at: https://blog.gagangulyani.com
-
-## Structure
-
-- `/posts/` - Blog posts in Markdown format
-- `/src/pages/about.md` - About page
-- `/src/settings/settings.json` - Site configuration
-- `/public/` - Static assets
-- `/tina/` - TinaCMS configuration
-
-## Credits
-
-Built with [Astro](https://astro.build) and [TinaCMS](https://tina.io)
-Based on the [blahg](https://github.com/cassidoo/blahg) template by Cassidy Williams
+**Get it running:** `./setup-ghost-solo.sh`

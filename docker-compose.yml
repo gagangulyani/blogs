@@ -22,6 +22,7 @@ services:
       mail__options__service: ${MAIL_SERVICE:-Mailgun}
       mail__options__auth__user: ${MAIL_USER:-}
       mail__options__auth__pass: ${MAIL_PASS:-}
+      mail__from: ${MAIL_FROM:-noreply@blog.gagangulyani.com}
 
       # Security
       privacy__useUpdateCheck: false

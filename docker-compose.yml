@@ -35,13 +35,18 @@ services:
         condition: service_healthy
     networks:
       - ghost-network
+      - dokploy-network
     labels:
-      # Dokploy/Traefik labels for routing
-      - "traefik.enable=true"
-      - "traefik.http.routers.ghost.rule=Host(`blog.gagangulyani.com`)"
-      - "traefik.http.routers.ghost.entrypoints=websecure"
-      - "traefik.http.routers.ghost.tls.certresolver=letsencrypt"
-      - "traefik.http.services.ghost.loadbalancer.server.port=2368"
+      - traefik.enable=true
+      - traefik.docker.network=dokploy-network
+      # Dokploy/Traefik labels for routing (update project name to match your Dokploy project)
+      - "traefik.http.routers.blogs-mind-blogged-g3iys2-1-web.rule=Host(`blog.gagangulyani.com`)"
+      - "traefik.http.routers.blogs-mind-blogged-g3iys2-1-web.entrypoints=web"
+      - "traefik.http.routers.blogs-mind-blogged-g3iys2-1-websecure.rule=Host(`blog.gagangulyani.com`)"
+      - "traefik.http.routers.blogs-mind-blogged-g3iys2-1-websecure.entrypoints=websecure"
+      - "traefik.http.routers.blogs-mind-blogged-g3iys2-1-websecure.tls.certresolver=letsencrypt"
+      - "traefik.http.services.blogs-mind-blogged-g3iys2-1-web.loadbalancer.server.port=2368"
+      - "traefik.http.services.blogs-mind-blogged-g3iys2-1-websecure.loadbalancer.server.port=2368"
 
   mysql:
     image: mysql:8.0
@@ -80,3 +85,5 @@ volumes:
 networks:
   ghost-network:
     driver: bridge
+  dokploy-network:
+    external: true

@@ -10,6 +10,7 @@ services:
       # Required Ghost configuration
       NODE_ENV: production
       url: https://blog.gagangulyani.com
+      port: 2368 # Tell Ghost explicitly to use its default port
 
       # Database configuration (MySQL recommended for production)
       database__client: mysql

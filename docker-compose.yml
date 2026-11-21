@@ -1,6 +1,6 @@
 services:
   ghost:
-    image: ghost:6-alpine
+    image: ghost:6.78.0-alpine
     restart: unless-stopped
     ports:
       - "2368:2368"

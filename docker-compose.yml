@@ -26,6 +26,13 @@ services:
       # Security
       privacy__useUpdateCheck: false
 
+      # Web analytics (Tinybird) - views in Ghost Admin > Analytics
+      tinybird__tracker__endpoint: https://blog.gagangulyani.com/.ghost/analytics/api/v1/page_hit
+      tinybird__tracker__datasource: analytics_events
+      tinybird__adminToken: ${TINYBIRD_ADMIN_TOKEN:-}
+      tinybird__workspaceId: ${TINYBIRD_WORKSPACE_ID:-}
+      tinybird__stats__endpoint: ${TINYBIRD_API_URL:-https://api.tinybird.co}
+
       # Admin initial setup
       GHOST_INSTALL_LOCK: "false"
     volumes:
@@ -47,6 +54,29 @@ services:
       - "traefik.http.routers.blogs-mind-blogged-g3iys2-1-websecure.tls.certresolver=letsencrypt"
       - "traefik.http.services.blogs-mind-blogged-g3iys2-1-web.loadbalancer.server.port=2368"
       - "traefik.http.services.blogs-mind-blogged-g3iys2-1-websecure.loadbalancer.server.port=2368"
+
+  traffic-analytics:
+    image: ghost/traffic-analytics:1.0.565
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PROXY_TARGET: ${TINYBIRD_API_URL:-https://api.tinybird.co}/v0/events
+      SALT_STORE_TYPE: file
+      SALT_STORE_FILE_PATH: /data/salts.json
+      TINYBIRD_TRACKER_TOKEN: ${TINYBIRD_TRACKER_TOKEN:-}
+    volumes:
+      - traffic-analytics-data:/data
+    networks:
+      - dokploy-network
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=dokploy-network
+      - "traefik.http.routers.blogs-mind-blogged-analytics.rule=Host(`blog.gagangulyani.com`) && PathPrefix(`/.ghost/analytics`)"
+      - "traefik.http.routers.blogs-mind-blogged-analytics.entrypoints=websecure"
+      - "traefik.http.routers.blogs-mind-blogged-analytics.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.blogs-mind-blogged-analytics.middlewares=blogs-mind-blogged-analytics-strip"
+      - "traefik.http.middlewares.blogs-mind-blogged-analytics-strip.stripprefix.prefixes=/.ghost/analytics"
+      - "traefik.http.services.blogs-mind-blogged-analytics.loadbalancer.server.port=3000"
 
   mysql:
     image: mysql:8.0
@@ -80,6 +110,8 @@ volumes:
   ghost-content:
     driver: local
   mysql-data:
+    driver: local
+  traffic-analytics-data:
     driver: local
 
 networks:

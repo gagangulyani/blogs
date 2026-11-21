@@ -2,8 +2,6 @@ services:
   ghost:
     image: ghost:6.78.0-alpine
     restart: unless-stopped
-    ports:
-      - "2368:2368"
     environment:
       # Required Ghost configuration
       NODE_ENV: production
